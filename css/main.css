@@ -34,3 +34,28 @@ svg {
 .lines path {
   stroke-dasharray: 0, 480;
 }
+
+.btn:active {
+  fill: white;
+}
+
+.lineEngage path {
+
+}
+
+@keyframes lineEngage {
+
+  0% {
+
+  }
+
+  100% {
+
+  }
+}
+
+.engaged path:nth-child(1) {
+  fill: #f60;
+  transition: all 0.5s;
+  transition-delay: .1s;
+}
