@@ -46,11 +46,11 @@ svg {
 @keyframes lineEngage {
 
   0% {
-
+    stroke-dasharray: 0, 480;
   }
 
   100% {
-
+    stroke-dasharray: 480, 480;
   }
 }
 
