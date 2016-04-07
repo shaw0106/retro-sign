@@ -40,7 +40,7 @@ svg {
 }
 
 .lineEngage path {
-
+  animation: lineEngage 1s both;
 }
 
 @keyframes lineEngage {
